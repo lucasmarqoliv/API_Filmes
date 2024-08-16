@@ -1,87 +1,36 @@
-# Lucas API
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Aplicação Next.js que permite buscar filmes via API OMDb e salvar favoritos usando LocalStorage. Inclui navegação com paginação e detalhes dos filmes.
+## Getting Started
 
-## Índice
+First, run the development server:
 
-- [Introdução](#introdução)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Configuração](#configuração)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Créditos](#créditos)
-- [Licença](#licença)
-- [Contato](#contato)
-
-## Introdução
-
-Lucas API é uma aplicação desenvolvida em Next.js que permite aos usuários buscar filmes por título utilizando a API OMDb. Os usuários também podem salvar seus filmes favoritos, que são armazenados no LocalStorage do navegador.
-
-## Funcionalidades
-
-- Busca de filmes por título usando a API OMDb
-- Exibição de detalhes de filmes
-- Paginação dos resultados de busca
-- Salvamento de filmes como favoritos usando LocalStorage
-- Exibição da lista de filmes favoritos
-
-## Tecnologias Utilizadas
-
-- **Front-End:** Next.js, React
-- **API:** OMDb API
-- **Armazenamento Local:** LocalStorage
-
-## Configuração
-
-Para rodar este projeto localmente, siga os passos abaixo:
-
-1. Clone o repositório:
- 
-   git clone https://github.com/seu-usuario/lucas-api.git
-   
-Navegue até o diretório do projeto:
-
-cd lucas-api
-Instale as dependências:
-
-npm install
-Crie um arquivo .env.local na raiz do projeto com a sua chave da API OMDb:
-
-NEXT_PUBLIC_OMDB_API_KEY=sua_chave_aqui
-Inicie o servidor:
-
-
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Uso
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Após configurar o projeto, você pode acessar a aplicação em http://localhost:3000. Utilize a barra de pesquisa para buscar filmes por título, e clique em "Ver Favoritos" para acessar a lista de filmes que foram salvos como favoritos.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-Contribuição
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:
+## Learn More
 
-Faça um fork do repositório.
+To learn more about Next.js, take a look at the following resources:
 
-Crie uma nova branch:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-git checkout -b feature-branch
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Faça suas alterações e commite-as:
+## Deploy on Vercel
 
-git commit -m 'Descrição da sua mudança'
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Faça o push para a branch:
-
-git push origin feature-branch
-
-Crie um pull request.
-Créditos
-Este projeto foi desenvolvido por Lucas Marques
-
-Licença
-Este projeto é licenciado sob a licença ISC. Veja o arquivo LICENSE para mais detalhes.
-
-Contato
-Email: lucasmarqoliv@gmail.com
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

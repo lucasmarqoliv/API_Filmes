@@ -1,0 +1,102 @@
+/* favorites.css */
+
+.favorites-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorites-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorites-header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.favorites-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.favorite-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.favorite-item:hover {
+    transform: scale(1.02);
+}
+
+.favorite-item img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.favorite-info {
+    flex-grow: 1;
+}
+
+.favorite-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.favorite-details {
+    margin: 0;
+    color: #666;
+}
+
+.remove-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+    background-color: #ff3b3b;
+}
+
+.no-favorites {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-to-home a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.back-to-home a:hover {
+    color: #0056b3;
+}
