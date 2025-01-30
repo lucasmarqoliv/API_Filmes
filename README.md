@@ -2,6 +2,11 @@
 
 Aplicação Next.js que permite buscar filmes via API OMDb e salvar favoritos usando LocalStorage. Inclui navegação com paginação e detalhes dos filmes.
 
+![Captura de tela 2025-01-30 111828](https://github.com/user-attachments/assets/0e7bdc8a-8a44-4159-8420-a2ada9ed6cac)
+![Captura de tela 2025-01-30 111855](https://github.com/user-attachments/assets/b2174b7b-e36b-47c5-82a5-818f2a35335f)
+![Captura de tela 2025-01-30 111842](https://github.com/user-attachments/assets/ea97a1ab-95d8-4758-9772-f56c0347fea3)
+
+
 ## Índice
 
 - [Introdução](#introdução)
