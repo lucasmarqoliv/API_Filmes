@@ -1,11 +1,8 @@
-# Lucas API
+#  API_Filmes
 
 Aplicação Next.js que permite buscar filmes via API OMDb e salvar favoritos usando LocalStorage. Inclui navegação com paginação e detalhes dos filmes.
 
-![Captura de tela 2025-01-30 111828](https://github.com/user-attachments/assets/0e7bdc8a-8a44-4159-8420-a2ada9ed6cac)
-![Captura de tela 2025-01-30 111855](https://github.com/user-attachments/assets/b2174b7b-e36b-47c5-82a5-818f2a35335f)
-![Captura de tela 2025-01-30 111842](https://github.com/user-attachments/assets/ea97a1ab-95d8-4758-9772-f56c0347fea3)
-
+https://github.com/user-attachments/assets/ae82ec89-a452-4c0e-9839-c8b05424b20c
 
 ## Índice
 
@@ -21,7 +18,7 @@ Aplicação Next.js que permite buscar filmes via API OMDb e salvar favoritos us
 
 ## Introdução
 
-Lucas API é uma aplicação desenvolvida em Next.js que permite aos usuários buscar filmes por título utilizando a API OMDb. Os usuários também podem salvar seus filmes favoritos, que são armazenados no LocalStorage do navegador.
+API_Filmes é uma aplicação desenvolvida em Next.js que permite aos usuários buscar filmes por título utilizando a API OMDb. Os usuários também podem salvar seus filmes favoritos, que são armazenados no LocalStorage do navegador.
 
 ## Funcionalidades
 
@@ -47,7 +44,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
    
 Navegue até o diretório do projeto:
 
-cd lucas-api
+cd API_Filmes
 Instale as dependências:
 
 npm install
